@@ -32,3 +32,32 @@ Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r
 ![Update-Package](/img/nuget-img3.png)
 
 #### База података
+
+Отворите фајл са опциом File->Open->File...
+
+![open](/img/db-01.png)
+
+Пронађите .sql фајл.
+
+![.sql](/img/db-02.png)
+
+Обратите пажњу да подесите путању до фолдера у коме ће бити сачувана ваша база података. Креирајте фолдер у колико **не постији**!
+
+![putanja](/img/db-03.png)
+
+Покрените SQL скрипту.
+
+![execute](/img/db-04.png)
+
+На следећем екрану изаберите LocalDB.
+
+![LocalDB](/img/db-05.png)
+
+Освежите Databases унутар SQL Server Object Explorer.
+
+![refresh](/img/db-06.png)
+
+У колико сте испратити све кораке успешно. Ваша локална бара је креирана.
+
+![db-is-here](/img/db-07.png)
+
